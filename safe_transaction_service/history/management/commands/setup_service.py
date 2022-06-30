@@ -121,8 +121,8 @@ TASKS = [
 
 MASTER_COPIES: Dict[EthereumNetwork, List[Tuple[str, int, str]]] = {
     EthereumNetwork.ETMP_MAINNET: [
-        ("0xa9a6ba4114EA7ED8A21B77C1516efC202535ac29", 0, "1.3.0+L2"),
-        ("0x410C681887D7F0c4719F91a68eF95d375ba02eb4", 0, "1.3.0"),
+        ("0x293557aAaBfeB45859366e42fc8AF80291425975", 0, "1.3.0+L2"),
+        ("0xdB6FC7603DdC91F027379267A3549D28E65484D5", 0, "1.3.0"),
     ],
     EthereumNetwork.ETMP_TESTNET: [
         ("0xa9a6ba4114EA7ED8A21B77C1516efC202535ac29", 0, "1.3.0+L2"),
@@ -290,7 +290,7 @@ MASTER_COPIES: Dict[EthereumNetwork, List[Tuple[str, int, str]]] = {
 
 PROXY_FACTORIES: Dict[EthereumNetwork, List[Tuple[str, int]]] = {
     EthereumNetwork.ETMP_MAINNET: [
-        ("0x9A1a8daA908Eaf6c7BcA965cd6ae3A3518Bce1b6", 0),
+        ("0xAADFe7925b0Cad895665aDE74f5848043B8c4b7D", 0),
     ],
     EthereumNetwork.ETMP_TESTNET: [
         ("0x9A1a8daA908Eaf6c7BcA965cd6ae3A3518Bce1b6", 0),
