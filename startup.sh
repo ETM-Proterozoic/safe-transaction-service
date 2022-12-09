@@ -9,7 +9,7 @@ bash startup_worker.sh
 
 # kill worker
 sleep 20
-ps axu|grep "celery_app worker" |grep -v 'grep' |awk '{print $2}' |xargs kill -9
+ps axu|grep "safe-transaction" |grep -v 'grep' |awk '{print $2}' |xargs kill -9
 
 # startup web
 bash startup_web.sh
