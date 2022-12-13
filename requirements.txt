@@ -31,5 +31,5 @@ psycogreen==1.0.2
 psycopg2==2.9.3
 redis==4.3.3
 requests==2.28.0
-safe-etmp-py[django]==0.0.3
+safe-etmp-py[django]==0.0.4
 web3==5.29.2
